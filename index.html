@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omkar Dighole - Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fff;">
+    <div class="container">
+      <a class="navbar-brand text-danger" href="#">Omkar Dighole</a> <!-- Red text for the brand -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#home">Home</a> <!-- Black text for nav items -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero text-center text-white">
+    <div class="container">
+      <h1 class="display-4" id="nm" style="color: black;">Hi, I'm Omkar Dighole</h1>
+      <p class="lead" id="nm" style="color: black;">A Web Developer & Designer from Nashik</p>
+      <a href="#about" class="btn btn-danger btn-lg">Know More</a> <!-- Red button -->
+    </div>
+    <!-- Intro Section -->
+    <div class="intro text-center mt-5">
+      <p class="h4 text-dark bg-white p-3">I create modern, clean, and responsive websites with attention to detail and great design. Whether you need a portfolio, business website, or an e-commerce solution, I'm here to help bring your ideas to life!</p>
+    </div>
+    <!-- Scroll Down Indicator -->
+    <div class="scroll-down text-center">
+      <a href="#about" class="text-white">
+        <i class="fas fa-angle-down fa-3x"></i>
+        <p>Scroll Down</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about py-5 bg-dark text-white">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p class="lead">I'm a web developer skilled in modern front-end and back-end technologies, dedicated to creating sleek and responsive websites that help businesses grow.</p>
+      <img src="/images/img 3.jpg" alt="Omkar Dighole" class="rounded-circle my-4" width="200">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-danger">Projects</h2> <!-- Red heading -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/door bell.webp" class="card-img-top" alt="Smart Doorbell System">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Smart Doorbell System</h5> <!-- Red title -->
+              <p class="card-text">An IoT-based doorbell with live video feed and motion detection features.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/travel.jpeg" class="card-img-top" alt="E-Commerce Platform">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Vlogging website</h5>
+              <p class="card-text">A Attractive website to reach out the content to the people of travelling vloggers and increase crowd against their content</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/portfolio.jpg" class="card-img-top" alt="Portfolio Website">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Portfolio Website</h5>
+              <p class="card-text">A personal portfolio website showcasing my skills and projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact py-5 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center">Get in Touch</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control bg-light text-dark" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" class="form-control bg-light text-dark" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea class="form-control bg-light text-dark" id="message" rows="4" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger btn-block">Send Message</button> <!-- Red button -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-black text-white">
+    <div class="container">
+      <p>&copy; 2024 Omkar Dighole. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
